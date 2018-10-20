@@ -1,11 +1,26 @@
-function myFunction (tags) {
-  const url = 'https://api.infojobs.net/api/1/dictionary/mandatory-fields?value='
-  for (var i = 0, len = tags.length; i < len; i++) {
-    fetch(url + tags[i])
-      .then((res) => res.json())
-      .then(function (myJson) {
-        console.log(myJson)
-      })
+var skills = require('./skills.json')
+var jobs = require('./jobs.json')
+
+function myFunction (texto) {
+  var skillsEncontradas = []
+  var jobsEncontrados = []
+  for (var i = 0, len = skills.length; i < len; i++) {
+    for (var j = 0, len2 = texto.length; j < len2; j++) {
+      if (skills[i] === texto.length[j]) {
+        skillsEncontradas.push(skills[i])
+      }
+    }
   }
+  for (var x = 0, len3 = jobs.length; x < len3; x++) {
+    for (var y = 0, len4 = texto.length; y < len4; y++) {
+      if (skills[x] === texto.length[y]) {
+        jobsEncontrados.push(skills[x])
+      }
+    }
+  }
+  var jsonSkillsE = JSON.parse(JSON.stringify(skillsEncontradas))
+  var jsonJobsE = JSON.parse(JSON.stringify(jobsEncontrados))
+  return [jsonJobsE, jsonSkillsE]
 }
+
 myFunction(['java', 'python'])
