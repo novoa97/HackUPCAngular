@@ -1,4 +1,10 @@
 <div class="fondo">
   <input type="file" (change)="onFileSelected($event)">
   <button type="button"> Enviar </button>
+
+  <form action="localhost:5000/ofertas" method="post">
+    <input type="file" name="cvpdf"><br>
+    <input type="submit" value="Submit">
+</form>
+
 </div>
