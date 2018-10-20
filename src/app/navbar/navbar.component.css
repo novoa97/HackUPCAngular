@@ -1,0 +1,22 @@
+.navbar{
+  weight: 100vw;
+  background-image: url('/assets/fondo.png');
+  height: 8vh;
+}
+.selector{
+  margin-left: 5vw;
+}
+.button{
+  display: inline-block;
+  float: left;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 3vh;
+  margin-left: 2vw;
+  padding-top: 2vh;
+}
+.button:hover{
+   color: grey;
+   cursor: pointer;
+}

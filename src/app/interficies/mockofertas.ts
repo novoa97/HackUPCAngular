@@ -1,0 +1,93 @@
+import { Offer } from './offer';
+
+export const offers: Offer[] = [
+  {
+    id: 1,
+    title: "Consultor Business Intelligence (H/M)",
+    city: "Barcelona",
+    category: "IT",
+    contractType: "Indefinido",
+    salaryMax: 30000,
+    salaryMin: 40000,
+    experenciaMIN: "3 años",
+    workDay: "Jornada completa",
+    company: "UPC",
+    study: "Bachillerato",
+    requirementMin: "Experiencia como consultor/a y desarrollador/a de la herramienta Microstrateg Experiencia en procesos de implementación de análisis de datos corporativos tanto desde el punto de vista de negocio como técnico Inglés nivel medio",
+    link: "URL"
+  },
+  {
+    id: 1,
+    title:  "Consultor Business Intelligence (H/M)",
+    city: "Barcelona",
+    category: "IT",
+    contractType: "Indefinido",
+    salaryMax: 30000,
+    salaryMin: 40000,
+    experenciaMIN: "3 años",
+    workDay: "Jornada completa",
+    company: "UPC",
+    study: "Bachillerato",
+    requirementMin: "Experiencia como consultor/a y desarrollador/a de la herramienta Microstrateg Experiencia en procesos de implementación de análisis de datos corporativos tanto desde el punto de vista de negocio como técnico Inglés nivel medio",
+    link: "URL"
+  },
+  {
+    id: 1,
+    title: "Consultor Business Intelligence (H/M)",
+    city: "Barcelona",
+    category: "IT",
+    contractType: "Indefinido",
+    salaryMax: 30000,
+    salaryMin: 40000,
+    experenciaMIN: "3 años",
+    workDay: "Jornada completa",
+    company: "UPC",
+    study: "Bachillerato",
+    requirementMin: "Experiencia como consultor/a y desarrollador/a de la herramienta Microstrateg Experiencia en procesos de implementación de análisis de datos corporativos tanto desde el punto de vista de negocio como técnico Inglés nivel medio",
+    link: "URL"
+  },
+  {
+    id: 1,
+    title: "Consultor Business Intelligence (H/M)",
+    city: "Barcelona",
+    category: "IT",
+    contractType: "Indefinido",
+    salaryMax: 30000,
+    salaryMin: 40000,
+    experenciaMIN: "3 años",
+    workDay: "Jornada completa",
+    company: "UPC",
+    study: "Bachillerato",
+    requirementMin: "Experiencia como consultor/a y desarrollador/a de la herramienta Microstrateg Experiencia en procesos de implementación de análisis de datos corporativos tanto desde el punto de vista de negocio como técnico Inglés nivel medio",
+    link: "URL"
+  },{
+    id: 1,
+    title: "Consultor Business Intelligence (H/M)",
+    city: "Barcelona",
+    category: "IT",
+    contractType: "Indefinido",
+    salaryMax: 30000,
+    salaryMin: 40000,
+    experenciaMIN: "3 años",
+    workDay: "Jornada completa",
+    company: "UPC",
+    study: "Bachillerato",
+    requirementMin: "Experiencia como consultor/a y desarrollador/a de la herramienta Microstrateg Experiencia en procesos de implementación de análisis de datos corporativos tanto desde el punto de vista de negocio como técnico Inglés nivel medio",
+    link: "URL"
+  },
+  {
+    id: 1,
+    title: "Consultor Business Intelligence (H/M)",
+    city: "Barcelona",
+    category: "IT",
+    contractType: "Indefinido",
+    salaryMax: 30000,
+    salaryMin: 40000,
+    experenciaMIN: "3 años",
+    workDay: "Jornada completa",
+    company: "UPC",
+    study: "Bachillerato",
+    requirementMin: "Experiencia como consultor/a y desarrollador/a de la herramienta Microstrateg Experiencia en procesos de implementación de análisis de datos corporativos tanto desde el punto de vista de negocio como técnico Inglés nivel medio",
+    link: "URL"
+  }
+];

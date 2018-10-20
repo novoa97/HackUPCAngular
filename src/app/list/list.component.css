@@ -1,0 +1,43 @@
+.list{
+  padding-top: 5vh;
+  padding-left: 30vw;
+  padding-right: 30vw;
+}
+.elementlist{
+  margin-bottom: 1vh;
+  width: 40vw;
+  height: 20vh;
+  background-color: #637d92;
+  font-family: Arial;
+  color: white;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  padding-top: 0.8vh;
+  padding-bottom: 0.5vh;
+  display: inline-block;
+  float: left;
+
+}
+.caracteristicas{
+  display: inline-block;
+  float: left;
+  padding-top: 0.8vh;
+  padding-left: 1vw;
+  width: 30vw;
+}
+.elementtitle{
+  font-size: 3vh;
+
+}
+.elementc{
+  margin-bottom: 0.5vh;
+  vertical-align:middle;
+}
+.buttondiv{
+  display: inline-block;
+  padding-top: 10vh;
+}
+.material-icons.md-18 { font-size: 16px; }
+.material-icons.md-24 { font-size: 24px; } /* Default */
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }

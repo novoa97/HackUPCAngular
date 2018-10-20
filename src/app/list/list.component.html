@@ -1,0 +1,22 @@
+<div class="list">
+  <div class="elementlist" *ngFor="let offer of list">
+    <div class="elementtitle">{{offer.title}}</div>
+    <div class="caracteristicas">
+      <div class="elementc">
+        <span class="material-icons md-18">room</span>
+        <span>{{offer.city}}</span>
+      </div>
+      <div class="elementc">
+        <span class="material-icons md-18"> monetization_on </span>
+        <span>{{offer.salaryMin}}€ - {{offer.salaryMax}}€ </span>
+      </div>
+      <div class="elementc">
+        <span class="material-icons md-18">access_time</span>
+        <span> {{offer.workDay}} </span>
+      </div>
+    </div>
+    <div class="buttondiv">
+      <button class="button"> +info </button>
+    </div>
+  </div>
+</div>
