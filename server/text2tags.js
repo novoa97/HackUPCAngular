@@ -8,6 +8,8 @@ function myFunction (texto) {
     for (var j = 0, len2 = texto.length; j < len2; j++) {
       if (skills[i] === texto.length[j]) {
         skillsEncontradas.push(skills[i])
+        i = len
+        j = len2
       }
     }
   }
@@ -15,9 +17,12 @@ function myFunction (texto) {
     for (var y = 0, len4 = texto.length; y < len4; y++) {
       if (skills[x] === texto.length[y]) {
         jobsEncontrados.push(skills[x])
+        x = len3
+        y = len4
       }
     }
   }
+  // falta testear esta funcións
   var jsonSkillsE = JSON.parse(JSON.stringify(skillsEncontradas))
   var jsonJobsE = JSON.parse(JSON.stringify(jobsEncontrados))
   return [jsonJobsE, jsonSkillsE]
